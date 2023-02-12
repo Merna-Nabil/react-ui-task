@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+}
+
+.main-btn {
+  background-image: linear-gradient(270deg, rgba(124, 28, 128, 0.659) 0.9%, #ff6057 97.7%);
+  color: #fff !important;
+  font-weight: bold !important;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  width: 178px;
+  height: 47px;
+  border-radius: 12px !important;
+}
+
+.cont {
+  width: 70% !important;
+}
+
+.bus-info {
+  width: 90%;
+}
+.bus-info .bus-head {
+  position: relative;
+  font-size: 38px;
+  font-weight: bold;
+}
+.bus-info .bus-head::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  border-radius: 10px;
+  top: -35px;
+  height: 4px;
+  background-color: #ff6057;
+}
+.bus-info p {
+  width: 90%;
+}
+
+.learn-more {
+  margin-bottom: 50px;
+}
+.learn-more a {
+  text-decoration: none;
+  color: #ff6057;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+p {
+  font-size: 14px;
+  color: #8F8F8F;
+}/*# sourceMappingURL=index.css.map */

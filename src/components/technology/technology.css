@@ -1,0 +1,43 @@
+.tech-wrapper {
+  min-height: 1000px;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 900px;
+}
+.tech-wrapper .bgimg {
+  position: absolute;
+  left: 50%;
+  background-image: url("../../assets/Rectangle 11.png");
+  width: 774px;
+  height: 1500px;
+  top: -200px;
+}
+.tech-wrapper .dash {
+  position: relative;
+  width: 900px;
+  top: 70px;
+  right: 150px;
+}
+.tech-wrapper .tech {
+  position: relative;
+  top: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .tech-wrapper .bgimg {
+    display: none;
+  }
+  .tech-wrapper .dash {
+    width: 500px;
+    left: -94px;
+    top: 150px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tech-wrapper .dash {
+    width: 700px;
+    left: -94px;
+    top: 150px;
+  }
+}/*# sourceMappingURL=technology.css.map */

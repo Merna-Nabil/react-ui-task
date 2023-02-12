@@ -1,0 +1,103 @@
+.testmonials-wrapper {
+  min-height: 800px;
+}
+.testmonials-wrapper .title {
+  margin-bottom: 100px;
+}
+.testmonials-wrapper .title h2 {
+  width: 35%;
+  margin: auto;
+  font-size: 38px;
+  font-weight: bold;
+}
+.testmonials-wrapper h4 {
+  color: #ff6057;
+  font-size: 46px;
+  font-weight: bold;
+}
+.testmonials-wrapper span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3b3a3a;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.testmonials-wrapper .cart {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fafafa;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.testmonials-wrapper .cart .img {
+  margin-right: 20px;
+}
+.testmonials-wrapper .cart .info h3 {
+  font-size: 24px;
+}
+.testmonials-wrapper .cart .info h4 {
+  font-size: 16px;
+  color: #8F8F8F;
+}
+.testmonials-wrapper .cart .info p {
+  font-size: 15px;
+}
+.testmonials-wrapper .cart .info img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.testmonials-wrapper .dots {
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.testmonials-wrapper .test-info {
+  margin-bottom: 50px;
+}
+.testmonials-wrapper .test-info h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.testmonials-wrapper .test-info p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .testmonials-wrapper {
+    min-height: 800px;
+  }
+  .testmonials-wrapper .title {
+    margin-bottom: 100px;
+  }
+  .testmonials-wrapper .title h2 {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .testmonials-wrapper .cart {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .testmonials-wrapper {
+    min-height: 800px;
+  }
+  .testmonials-wrapper .title {
+    margin-bottom: 100px;
+  }
+  .testmonials-wrapper .title h2 {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .testmonials-wrapper .cart {
+    display: block;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=testmonials.css.map */

@@ -1,0 +1,50 @@
+.process-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.process-wrapper .proc {
+  margin-top: 60px;
+}
+.process-wrapper .proc h3 {
+  font-size: 30px;
+  width: 90%;
+}
+.process-wrapper .research {
+  width: 80%;
+}
+.process-wrapper .research h3 {
+  position: relative;
+  margin-bottom: 30px;
+}
+.process-wrapper .research h3::before {
+  content: "1";
+  position: absolute;
+  background-color: #ff6057;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 53px;
+  font-weight: bold;
+  color: #fff;
+  top: 0;
+  left: -70px;
+}
+.process-wrapper .research p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  position: relative;
+}
+.process-wrapper .research p::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 70px;
+  background-color: #bcbcbc;
+  left: -45px;
+  top: 10px;
+}
+.process-wrapper .research .no-line::before {
+  content: "";
+  display: none;
+}/*# sourceMappingURL=process.css.map */

@@ -1,0 +1,64 @@
+.footer-wrapper {
+  background-color: #333333;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-wrapper .study {
+  width: 85%;
+}
+.footer-wrapper .study h4 {
+  font-family: "Nueva Std";
+}
+.footer-wrapper .study p {
+  color: #fff;
+}
+.footer-wrapper .services {
+  width: 42%;
+}
+.footer-wrapper .services p {
+  color: #fff;
+}
+.footer-wrapper .contact h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer-wrapper .contact .email {
+  border-radius: 20px;
+  width: 180px;
+  border: none;
+  outline: none;
+  padding: 4px;
+}
+.footer-wrapper .contact .subscribe {
+  border-radius: 20px;
+  width: 100px;
+  padding: 4px;
+  border: 0.5px solid #fff;
+  background-color: #ff6057;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: -70px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-wrapper .contact .email {
+    border-radius: 20px;
+    width: 140px;
+    border: none;
+    outline: none;
+    padding: 4px;
+  }
+  .footer-wrapper .contact .subscribe {
+    border-radius: 20px;
+    width: 80px;
+    padding: 4px;
+    border: 0.5px solid #fff;
+    background-color: #ff6057;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -70px;
+  }
+}/*# sourceMappingURL=footer.css.map */

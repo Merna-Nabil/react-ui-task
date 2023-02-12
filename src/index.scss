@@ -1,0 +1,57 @@
+@import "./scss/variables";
+body {
+  font-family: $main-font-family;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+}
+.main-btn {
+  background-image: $gradient-color;
+  color: $white !important;
+  font-weight: bold !important;
+}
+.btn {
+  border: none;
+  outline: none;
+  width: $btn-width;
+  height: $btn-height;
+  border-radius: 12px !important;
+}
+.cont {
+  width: 70% !important;
+}
+.bus-info {
+  width: 90%;
+  .bus-head {
+    position: relative;
+    font-size: $title-size;
+    font-weight: bold;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 70px;
+      border-radius: 10px;
+      top: -35px;
+      height: 4px;
+      background-color: $main-color;
+    }
+  }
+
+  p {
+    width: 90%;
+  }
+}
+.learn-more {
+  margin-bottom: 50px;
+  a {
+    text-decoration: none;
+    color: $main-color;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 50px;
+  }
+}
+p {
+  font-size: $paragraph-size;
+  color: $paragraph-color;
+}

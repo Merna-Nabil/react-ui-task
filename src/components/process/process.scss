@@ -1,0 +1,54 @@
+@import "../../scss/variables";
+
+.process-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .proc {
+    margin-top: 60px;
+    h3 {
+      font-size: 30px;
+      width: 90%;
+    }
+  }
+  .research {
+    width: 80%;
+    h3 {
+      position: relative;
+      margin-bottom: 30px;
+      &::before {
+        content: "1";
+        position: absolute;
+        background-color: $main-color;
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 53px;
+        font-weight: bold;
+        color: $white;
+        top: 0;
+        left: -70px;
+      }
+    }
+    p {
+      margin-bottom: 30px;
+      font-size: $paragraph-size;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 70px;
+        background-color: #bcbcbc;
+        left: -45px;
+        top: 10px;
+      }
+    }
+    .no-line {
+      &::before {
+        content: "";
+        display: none;
+      }
+    }
+  }
+}

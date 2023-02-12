@@ -1,0 +1,72 @@
+@import "../../scss/variables";
+.footer-wrapper {
+  background-color: $footer-color;
+  color: $white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .study {
+    h4 {
+      font-family: "Nueva Std";
+    }
+    width: 85%;
+
+    p {
+      color: $white;
+    }
+  }
+  .services {
+    width: 42%;
+    p {
+      color: $white;
+    }
+  }
+  .contact {
+    h5 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .email {
+      border-radius: 20px;
+      width: 180px;
+      border: none;
+      outline: none;
+      padding: 4px;
+    }
+    .subscribe {
+      border-radius: 20px;
+      width: 100px;
+      padding: 4px;
+      border: 0.5px solid $white;
+      background-color: $main-color;
+      color: $white;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: -70px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .footer-wrapper {
+    .contact {
+      .email {
+        border-radius: 20px;
+        width: 140px;
+        border: none;
+        outline: none;
+        padding: 4px;
+      }
+      .subscribe {
+        border-radius: 20px;
+        width: 80px;
+        padding: 4px;
+        border: 0.5px solid $white;
+        background-color: $main-color;
+        color: $white;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: -70px;
+      }
+    }
+  }
+}

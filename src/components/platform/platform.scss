@@ -1,0 +1,80 @@
+.platform-wrapper {
+  min-height: 900px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  .image {
+    position: absolute;
+    right: 874px;
+    top: -200px;
+    z-index: -1;
+  }
+  .dashboard {
+    top: 150px;
+    position: relative;
+    width: 900px;
+    top: 100px;
+    right: 390px;
+    height: 700px;
+  }
+  .platform-info {
+    position: relative;
+    top: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .platform-wrapper {
+    .image {
+      display: none;
+    }
+    .dashboard {
+      top: 150px;
+      width: 350px;
+      right: 0;
+      top: 0;
+      height: 250px;
+    }
+    .platform-info {
+      position: relative;
+      top: 300px;
+    }
+  }
+  .platform-info {
+    .bus-head {
+      font-size: 25px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .platform-wrapper {
+    .image {
+      display: none;
+    }
+    .dashboard {
+      top: 150px;
+      width: 600px;
+      right: 0;
+      top: 0;
+      height: 400px;
+    }
+    .platform-info {
+      position: relative;
+      top: 300px;
+    }
+  }
+  .platform-info {
+    .bus-head {
+      font-size: 25px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+}
